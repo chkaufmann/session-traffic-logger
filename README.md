@@ -138,7 +138,17 @@ Do not share `.db` files without reviewing their contents first.
 
 ## Screenshots
 
-Screenshots will be added in a future update.
+### Live traffic view
+![Live View](docs/Session_Traffic_Logger_01.jpg)
+
+### Filter dialog
+![Filter](docs/Session_Traffic_Logger_02.jpg)
+
+### Loading previous sessions
+![Load DB](docs/Session_Traffic_Logger_03.jpg)
+
+### CSV export
+![CSV Export](docs/Session_Traffic_Logger_04.jpg)
 
 ---
 
