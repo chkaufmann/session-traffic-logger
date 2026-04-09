@@ -2,14 +2,26 @@
 
 A Burp Suite extension for persistent HTTP traffic logging and session analysis.
 
-Please report any issues, bugs, or feedback via GitHub Issues.
+## Why?
+
+Burp's built-in Proxy history only captures Proxy traffic.
+During pentests, relevant requests often originate from Scanner, Intruder, or Repeater – and disappear after the session ends.
+
+Session Traffic Logger solves this by providing:
+- Persistent cross-tool logging (Scanner, Repeater, Intruder, Target, Extender)
+- Session replay – reload and analyse previous sessions at any time
+- Unified traffic view across all Burp tools
+- Advanced filtering and CSV export
+
+Typical use case:
+Identify and replay requests from Scanner or Intruder that triggered unexpected behavior or crashes.
 
 ---
 
 ## What is Session Traffic Logger?
 
-Session Traffic Logger is a Burp Suite extension that captures and stores HTTP traffic
-persistently from all Burp tools (Repeater, Scanner, Intruder, etc.) into a local SQLite database.
+Session Traffic Logger captures and persistently stores HTTP traffic from all Burp tools
+(Repeater, Scanner, Intruder, etc.) into a local SQLite database.
 
 Unlike Burp's built-in Proxy history, this extension:
 - Logs traffic from **all tools**, not just Proxy
@@ -160,4 +172,4 @@ Please report:
 - Performance issues under heavy load
 - Suggestions for improvements
 
-Feedback is highly appreciated and helps improve the extension before the official release.
+Feedback is highly appreciated and helps improve the extension.
