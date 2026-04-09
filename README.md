@@ -8,7 +8,7 @@ Burp's built-in Proxy history only captures Proxy traffic.
 
 Burp's Logger tool can capture traffic from multiple tools,
 but it is **not persistent** – all logged data is lost when Burp is closed.
-While Burp allows exporting logs as plain text, these cannot be reimported or analysed further.
+While Burp allows exporting logs as plain text, these cannot be reimported or analysed further within Burp.
 
 During pentests, relevant requests often originate from Scanner, Intruder, or Repeater –
 for example when identifying requests that triggered unexpected behavior or crashes.
